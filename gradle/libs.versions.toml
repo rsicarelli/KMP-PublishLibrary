@@ -1,0 +1,13 @@
+[versions]
+androidGradlePlugin = "8.1.2"
+kotlin = "1.9.20"
+
+[libraries]
+gradlePlugin-android = { module = "com.android.tools.build:gradle", version.ref = "androidGradlePlugin" }
+gradlePlugin-kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
+kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+rsicarelli-kmpPlublishLibrary = { id = "com.rsicarelli.kmp-publish-library" }
