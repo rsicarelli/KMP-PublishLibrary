@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c1019b7-9795-4708-a173-3026bb2923ed" name="Changes" comment="" />
+    <list default="true" id="2c1019b7-9795-4708-a173-3026bb2923ed" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/detekt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-logic/src/main/kotlin/com/rsicarelli/kmppublishlibrary/KMPPublishLibraryPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/build-logic/src/main/kotlin/com/rsicarelli/kmppublishlibrary/KMPPublishLibraryPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-logic/src/main/kotlin/com/rsicarelli/kmppublishlibrary/decoration/apple/ApplePlatformSettings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/build-logic/src/main/kotlin/com/rsicarelli/kmppublishlibrary/decoration/apple/ApplePlatformSettings.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-logic/src/main/kotlin/com/rsicarelli/kmppublishlibrary/decoration/apple/AppleVersion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/build-logic/src/main/kotlin/com/rsicarelli/kmppublishlibrary/decoration/apple/ApplePlatformVersion.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-logic/src/main/kotlin/com/rsicarelli/kmppublishlibrary/decoration/apple/SwiftPackageDescriptor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/build-logic/src/main/kotlin/com/rsicarelli/kmppublishlibrary/decoration/apple/SwiftPackageDescriptor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-logic/src/main/kotlin/com/rsicarelli/kmppublishlibrary/options/SwiftPackageOptions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/build-logic/src/main/kotlin/com/rsicarelli/kmppublishlibrary/options/SwiftPackageOptions.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +51,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -55,17 +68,19 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rodrigosicarelli/Workspace/Personal/KMP-publish-library/build-logic&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.31328672&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/rodrigosicarelli/Workspace/Personal/KMP-publish-library",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.31328672",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/build-logic" />
@@ -230,6 +245,9 @@
       <workItem from="1698653193904" duration="20456000" />
       <workItem from="1698738463032" duration="5586000" />
       <workItem from="1698912773630" duration="3858000" />
+      <workItem from="1698930550755" duration="550000" />
+      <workItem from="1698931117201" duration="648000" />
+      <workItem from="1698957023425" duration="871000" />
     </task>
     <servers />
   </component>

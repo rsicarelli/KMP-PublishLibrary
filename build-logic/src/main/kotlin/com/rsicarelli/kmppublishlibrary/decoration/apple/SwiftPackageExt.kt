@@ -14,35 +14,26 @@ internal object SwiftPackageExt {
      * The default build path for Swift packages. This path is used as a base directory
      * to store and manage Swift packages within the project.
      */
-
     private const val SWIFT_PACKAGE_BUILD_PATH = "swiftpackages"
 
     /**
      * Extension property to get the directory for Swift packages builds in the project.
-     * It composes the path by combining the project's build directory and the predefined
-     * Swift package build path.
-     *
-     * @return File representing the directory for Swift package builds.
-     */
+     **/
     internal val Project.swiftPackageBuildDirectory: File
         get() = File(projectBuildDirectory, SWIFT_PACKAGE_BUILD_PATH)
 
     /**
      * Extension property to get the directory of the Swift package project.
-     * This directory is determined by the predefined Swift package build path.
-     *
-     * @return File representing the directory for the Swift package project.
-     */
+     **/
     internal val swiftPackageProjectDirectory: File
         get() = File(SWIFT_PACKAGE_BUILD_PATH)
 
     /**
      * Constructs the filename for the Swift package zip archive based on the project's name,
-     * the provided native build type, and the project's version.
+     * the provided [NativeBuildType], and the project's version.
      *
      * @param nativeBuildType The native build type for which the Swift package is intended.
      * @return String representing the Swift package zip filename.
-     * @see [NativeBuildType]
      */
     internal fun Project.getSwiftPackageZipFileName(nativeBuildType: NativeBuildType): String =
         "$name-${nativeBuildType.getName()}-$version.zip"
@@ -66,13 +57,13 @@ internal object SwiftPackageExt {
     }
 
     /**
-     * Computes the checksum for an XCFramework file by executing the 'swift package compute-checksum' command.
+     * Computes the checksum for an XCFramework file.
      * It expects the checksum output to be non-empty.
      *
      * @param file The XCFramework file for which the checksum needs to be computed.
      * @return String representing the computed checksum for the provided file.
-     * @throws IllegalArgumentException If the computed checksum is empty.
      */
+    @Throws(IllegalArgumentException::class)
     private fun Project.computeXCFrameworkChecksum(file: File): String =
         ByteArrayOutputStream().use { outputStream ->
             exec {
